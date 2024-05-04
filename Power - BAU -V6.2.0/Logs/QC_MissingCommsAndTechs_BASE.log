@@ -1,0 +1,66 @@
+The following Commodities have not been defined;
+All parameter information related with these will be removed
+
+REGION-COMMODITY
+
+REG1 ; BGS-LG
+REG1 ; BGS-SG
+REG1 ; BIO
+REG1 ; COA
+REG1 ; ELCPEAT
+REG1 ; GAS
+REG1 ; GEO
+REG1 ; GSL
+REG1 ; H2G
+REG1 ; HYD
+REG1 ; MSW
+REG1 ; OCE
+REG1 ; OIL
+REG1 ; PEA
+REG1 ; SOL
+REG1 ; WIN
+
+
+
+Region-Process-Commodity-Parameter-Timeslice-Limtype-Year-Value-Sheet-Cell
+
+REG1 ;  ; BGS-LG ; Topology ;  ;  ;  ;  ;  ; 
+REG1 ;  ; BGS-SG ; Topology ;  ;  ;  ;  ;  ; 
+REG1 ;  ; BIO ; Topology ;  ;  ;  ;  ;  ; 
+REG1 ;  ; COA ; Topology ;  ;  ;  ;  ;  ; 
+REG1 ;  ; ELCPEAT ; RGCommGrMap ;  ;  ;  ;  ;  ; 
+REG1 ;  ; GAS ; Topology ;  ;  ;  ;  ;  ; 
+REG1 ;  ; GEO ; Topology ;  ;  ;  ;  ;  ; 
+REG1 ;  ; GSL ; Topology ;  ;  ;  ;  ;  ; 
+REG1 ;  ; H2G ; Topology ;  ;  ;  ;  ;  ; 
+REG1 ;  ; HYD ; Topology ;  ;  ;  ;  ;  ; 
+REG1 ;  ; MSW ; Topology ;  ;  ;  ;  ;  ; 
+REG1 ;  ; OCE ; Topology ;  ;  ;  ;  ;  ; 
+REG1 ;  ; OIL ; Topology ;  ;  ;  ;  ;  ; 
+REG1 ;  ; PEA ; Topology ;  ;  ;  ;  ;  ; 
+REG1 ;  ; SOL ; Topology ;  ;  ;  ;  ;  ; 
+REG1 ;  ; WIN ; Topology ;  ;  ;  ;  ;  ; 
+
+----------------------
+The following processes have not been defined;
+All parameter information related with these will be removed
+
+REGION-PROCESS
+
+REG1 ; ELCTEGAS-CPS
+REG1 ; FTE-ELCPEAT
+
+
+
+Region-Process-Commodity-Parameter-Timeslice-Limtype-Year-Value-Sheet-Cell
+
+REG1 ; ELCTEGAS-CPS ;  ; RGCommGrMap ;  ;  ;  ;  ;  ; 
+REG1 ; ELCTEGAS-CPS ; - ; AFA ; - ; UP ; 2018 ; 0.9 ; Con_ELC ; 18,6
+REG1 ; ELCTEGAS-CPS ; - ; CAP2ACT ; - ; - ; - ; 1 ; Con_ELC ; 18,13
+REG1 ; ELCTEGAS-CPS ; - ; EFF ; ANNUAL ; - ; 2018 ; 0.54 ; Con_ELC ; 18,5
+REG1 ; ELCTEGAS-CPS ; - ; LIFE ; - ; - ; 2018 ; 35 ; Con_ELC ; 18,10
+REG1 ; ELCTEGAS-CPS ; - ; NCAP_BND ; - ; UP ; 0 ; 2 ; Con_ELC ; 18,12
+REG1 ; ELCTEGAS-CPS ; - ; NCAP_Pasti ; - ; - ; 2018 ; 0.408 ; Con_ELC ; 18,11
+REG1 ; FTE-ELCPEAT ; - ; EFF ; ANNUAL ; - ; 2018 ; 1 ; Sector_Fuels ; 19,6
+REG1 ; FTE-ELCPEAT ; - ; LIFE ; - ; - ; 2018 ; 30 ; Sector_Fuels ; 19,7
+
